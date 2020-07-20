@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<title>score_page</title>
+<head>
+    <style>
+        
+        /*HEAD*/
+        
+        p.center {
+            font-family: Arial;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid darkgray;
+            border-radius: 12px;
+            padding:  8px;
+            color:gold;
+        }
+        p.large {
+            font-size: 300%;
+        }
+        p.background {
+            background-color: black;
+        }
+        /*TABLE*/
+        
+        
+        table {
+            border-collapse: collapse ;
+            width: 100%;
+            
+            
+        }
+        th.column1{
+            text-align: center;
+            padding: 20px;
+            background-color: black; 
+        }
+        th.column2{
+            font-family: Arial;
+            text-align: center;
+            text-transform: uppercase;
+            color: grey  ;
+            padding: 25px;
+            background-color:black;
+            border: 3px solid;
+            border-color: white;
+            border-radius: 4px;
+        }
+         td{
+            text-align: center;
+            padding: 20px;
+            border: 2px solid;
+        }
+        button {
+            display: black;
+            margin: 0 auto;
+        }
+        .div_button_score {
+            border-radius: 4px;
+            padding: 3px;
+        }   
+        .fontscore {
+            font-family: Arial;
+            font-weight: 300;
+        }
+        .fontboard {
+            text-align: center;
+            font-family: Arial;
+            font-weight: 600;
+            background-color: black;
+            padding: 20px;
+            
+        }
+    </style>
+    <p class="center large background">Match Point</p>
+    <hr style="margin: auto; width: 80%">  
+</head>
+
+<body>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th class="column1"></th>   
+            <th class="column2" colspan="10">Board For Bridge Sport</th>
+            
+            
+        </tr>
+        <tr>
+            <td rowspan="2" class="fontscore">TABLE</td>
+            <td colspan="2" class="fontscore">PAIRS</td> 
+            <td colspan="4" class="fontscore">CONTACT</td>
+            <td rowspan="2" class="fontscore">NS</td>
+            <td rowspan="2" class="fontscore">EW</td>
+            <td colspan="2" class="fontscore">MP</td>
+        </tr>
+        <tr>
+            <td class="fontscore">NS</td>
+            <td class="fontscore">EW</td> 
+            <td class="fontscore">DECLARER</td>
+            <td class="fontscore">TRUMP</td>  
+            <td class="fontscore">LEVEL</td>
+            <td class="fontscore">RESULT</td>
+            <td class="fontscore">NS</td>
+            <td class="fontscore">EW</td>
+        </tr>
+        <tr>
+            
+            <td>1</td>
+            <form>
+            <td><input type="text" name="PNS1" id="pairs_ns1" size="4px"></td>
+            <td><input type="text" size="3px" name="ew1" id="ew1"></td>
+            <td><input type="text" size="3px" name="declarer1" id="declarer1"></td>
+            <td><input type="text" size="3px" name="trump1" id="trump1"></td> 
+            <td><input type="text" size="3px" name="level1" id="level1"></td>
+            <td><input type="text" size="3px" name="result1" id="result1"></td>
+            <td><input type="text" size="3px" name="ns1" id="ns1"></td>
+            <td><input type="text" size="3px" name="ew1" id="ew1"></td>
+            <td><input type="text" size="3px" name="mpns1" id="mpns1"></td> 
+            <td><input type="text" size="3px" name="mpew1" id="mpew1"></td> 
+                    
+        </tr>
+        <tr>    
+            <td>2</td><td><input type="text" name="PNS2" id="pairs_ns2" size="3px"></td>
+            <td><input type="text" size="3px" name="ew2" id="ew2"></td>
+            <td><input type="text" size="3px" name="declarer2" id="declarer2"></td>
+            <td><input type="text" size="3px" name="trump2" id="trump2"></td> 
+            <td><input type="text" size="3px" name="level2" id="level2"></td>
+            <td><input type="text" size="3px" name="result2" id="result2"></td>
+            <td><input type="text" size="3px" name="ns2" id="ns2"></td>
+            <td><input type="text" size="3px" name="ew2" id="ew2"></td>
+            <td><input type="text" size="3px" name="mpns2" id="mpns2"></td> 
+            <td><input type="text" size="3px" name="mpew2" id="mpew2"></td> 
+        </tr>
+        <tr>    
+            <td>3</td><td><input type="text" name="pairs_ns3" id="pairs_ns3" size="3px"></td>
+            <td><input type="text" size="3px" name="ew3" id="ew3"></td>
+            <td><input type="text" size="3px" name="declarer3" id="declarer3"></td>
+            <td><input type="text" size="3px" name="trump3" id="trump3"></td> 
+            <td><input type="text" size="3px" name="level3" id="level3"></td>
+            <td><input type="text" size="3px" name="result3" id="result3"></td>
+            <td><input type="text" size="3px" name="ns3" id="ns3"></td>
+            <td><input type="text" size="3px" name="ew3" id="ew3"></td>
+            <td><input type="text" size="3px" name="mpns3" id="mpns3"></td> 
+            <td><input type="text" size="3px" name="mpew3" id="mpew3"></td> > 
+        </tr>
+        <tr>    
+            <td>4</td><td><input type="text" name="pairs_ns4" id="pairs_ns4" size="3px"></td>
+            <td><input type="text" size="3px" name="ew4" id="ew4"></td>
+            <td><input type="text" size="3px" name="declarer4" id="declarer4"></td>
+            <td><input type="text" size="3px" name="trump4" id="trump4"></td> 
+            <td><input type="text" size="3px" name="level4" id="level4"></td>
+            <td><input type="text" size="3px" name="result4" id="result4"></td>
+            <td><input type="text" size="3px" name="ns4" id="ns4"></td>
+            <td><input type="text" size="3px" name="ew4" id="ew4"></td>
+            <td><input type="text" size="3px" name="mpns4" id="mpns4"></td> 
+            <td><input type="text" size="3px" name="mpew4" id="mpew4"></td> 
+        </tr>
+        <tr>    
+            <td>5</td><td><input type="text" name="pairs_ns5" id="pairs_ns5" size="3px"></td>
+            <td><input type="text" size="3px" name="ew5" id="ew5"></td>
+            <td><input type="text" size="3px" name="declarer5" id="declarer5"></td>
+            <td><input type="text" size="3px" name="trump5" id="trump5"></td> 
+            <td><input type="text" size="3px" name="level5" id="level5"></td>
+            <td><input type="text" size="3px" name="result5" id="result5"></td>
+            <td><input type="text" size="3px" name="ns5" id="ns5"></td>
+            <td><input type="text" size="3px" name="ew5" id="ew5"></td>
+            <td><input type="text" size="3px" name="mpns5" id="mpns5"></td> 
+            <td><input type="text" size="3px" name="mpew5" id="mpew5"></td> 
+        </tr>
+        <tr>    
+            <td>6</td><td><input type="text" name="pairs_ns6" id="pairs_ns6" size="3px"></td>
+            <td><input type="text" size="3px" name="ew6" id="ew6"></td>
+            <td><input type="text" size="3px" name="declarer6" id="declarer6"></td>
+            <td><input type="text" size="3px" name="trump6" id="trump6"></td> 
+            <td><input type="text" size="3px" name="level6" id="level6"></td>
+            <td><input type="text" size="3px" name="result6" id="result6"></td>
+            <td><input type="text" size="3px" name="ns6" id="ns6"></td>
+            <td><input type="text" size="3px" name="ew6" id="ew6"></td>
+            <td><input type="text" size="3px" name="mpns6" id="mpns6"></td> 
+            <td><input type="text" size="3px" name="mpew6" id="mpew6"></td> 
+        </tr>
+        <tr>    
+            <td>7</td><td><input type="text" name="pairs_ns7" id="pairs_ns7" size="3px"></td>
+            <td><input type="text" size="3px" name="ew7" id="ew7"></td>
+            <td><input type="text" size="3px" name="declarer7" id="declarer7"></td>
+            <td><input type="text" size="3px" name="trump7" id="trump7"></td> 
+            <td><input type="text" size="3px" name="level7" id="level7"></td>
+            <td><input type="text" size="3px" name="result7" id="result7"></td>
+            <td><input type="text" size="3px" name="ns7" id="ns7"></td>
+            <td><input type="text" size="3px" name="ew7" id="ew7"></td>
+            <td><input type="text" size="3px" name="mpns7" id="mpns7"></td> 
+            <td><input type="text" size="3px" name="mpew7" id="mpew7"></td> 
+        </tr>   
+        <tr>    
+            <td>8</td><td><input type="text" name="pairs_ns8" id="pairs_ns8" size="3px"></td>
+            <td><input type="text" size="3px" name="ew8" id="ew8"></td>
+            <td><input type="text" size="3px" name="declarer8" id="declarer8"></td>
+            <td><input type="text" size="3px" name="trump8" id="trump8"></td> 
+            <td><input type="text" size="3px" name="level8" id="level8"></td>
+            <td><input type="text" size="3px" name="result8" id="result8"></td>
+            <td><input type="text" size="3px" name="ns8" id="ns8"></td>
+            <td><input type="text" size="3px" name="ew8" id="ew8"></td>
+            <td><input type="text" size="3px" name="mpns8" id="mpns8"></td> 
+            <td><input type="text" size="3px" name="mpew8" id="mpew8"></td> 
+        </tr>   
+    </table>
+
+        <div class="div_button_score">
+        
+        <input type="submit" value="submit">
+    </form>
+    </div>
+    <script src="index.js">
+        let numberInput = document.getElementById('declarer1');
+        let numberOutput = document.getElementById('pairs_');
+        let numberInformation = document.getElementById('mpew_');
+        
+    
+      
+    </script>
+    
+    
+    </body>
